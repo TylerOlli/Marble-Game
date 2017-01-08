@@ -13,3 +13,7 @@ img:hover{
 .container {
 	margin-top:20px;
 }
+
+#instructions {
+	background-color:white;
+}
