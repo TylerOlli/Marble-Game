@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="UTF-8">
+		<title>Marble Collector</title>
+		
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<link href="assets/css/style.css" rel="stylesheet">
+
+
+
+	</head>
+	<body>
+		
+		<div class="container">
+			
+			<!-- Crystal Collector Jumbotron -->
+			<div class="jumbotron" style="background-color: #337ab7; color: white;">
+				<div class="container">
+					<h1 class="text-center"><strong>Marble Collector</strong></h1>
+					<br>
+					<center><button type="button" class="btn btn-secondary" id="instructions" style="color:black;">Click Here For Instructions</button></center>
+				</div>
+			</div>
+
+
+			<!-- Scores and Marbles  -->
+			<div class="row">
+				
+				<!-- Target Score -->
+				<div class="col-lg-3">
+					
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+							<h3 class="panel-title text-center">Target Score</h3>
+						</div>
+						<div class="panel-body">
+							<h3 class="text-center" id="targetScore"></h3>
+						</div>
+					</div>
+				</div>
+
+				<!-- Your Score -->
+				<div class="col-lg-3">
+					
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+							<h3 class="panel-title text-center">Your Score</h3>
+						</div>
+						<div class="panel-body">
+							<h3 class="text-center" id="yourScore"></h3>
+						</div>
+					</div>
+				</div>
+
+				
+				<!-- Win Count -->
+				<div class="col-lg-3">				
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+							<h3 class="panel-title text-center">Win Count</h3>
+						</div>
+						<div class="panel-body">
+							<h3 class="text-center" id="winCount">0</h3>
+						</div>
+					</div>
+				</div>
+
+				<!-- Loss Count -->
+				<div class="col-lg-3">
+					
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+							<h3 class="panel-title text-center">Loss Count</h3>
+						</div>
+						<div class="panel-body">
+							<h3 class="text-center" id="lossCount">0</h3>
+						</div>
+					</div>
+
+				</div>
+
+				<!-- Marbles-->
+
+				<div class="col-lg-3">
+					
+					<div class="panel panel-primary" style="border:none;">
+						<div class="panel-body">
+							<img src="assets/images/marble1.png" alt="" class="images" id="marble1">
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3">
+					
+					<div class="panel panel-primary" style="border:none;">
+						<div class="panel-body">
+							<img src="assets/images/marble2.png" alt="" class="images" id="marble2">
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3">
+					
+					<div class="panel panel-primary" style="border:none;">
+						<div class="panel-body">
+							<img src="assets/images/marble3.png" alt="" class="images" id="marble3">
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3">
+					
+					<div class="panel panel-primary" style="border:none;">
+						<div class="panel-body">
+							<img src="assets/images/marble4.png" alt="" class="images" id="marble4">
+						</div>
+					</div>
+				</div>
+
+				
+			</div>
+		</div>
+
+		<!-- JQuery -->
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+		<!-- Main Game Logic  -->
+		<script src="assets/javascript/game.js"></script>
+	</body>
+</html>

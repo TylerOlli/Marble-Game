@@ -1,0 +1,15 @@
+.images {
+	height:230px;
+	width:230px;
+	transform: rotate(-180deg);
+    transition: transform 1s;
+}
+
+img:hover{
+		transform: rotate(180deg);
+		transition: transform .3s;
+	}
+
+.container {
+	margin-top:20px;
+}
